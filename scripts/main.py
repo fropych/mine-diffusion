@@ -167,7 +167,7 @@ def on_ui_tabs():
                     )
                     with gr.Row():
                         load_bn = gr.Button("Load")
-                        apply_bn = gr.Button("Apply")
+                        apply_bn = gr.Button("Apply", variant="primary")
                         update_blacklist_presets_bn = gr.Button("Update Presets")
                     blacklist_name = gr.Textbox(
                         lines=1,
