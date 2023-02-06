@@ -19,4 +19,4 @@ A extension for [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMA
 ## Installation
 
 The extension can be installed directly from within the **Extensions** tab within the Webui
-<img src="images/installation.png"/>
+<img src="README_images/installation.png"/>
