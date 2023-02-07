@@ -16,6 +16,10 @@ A extension for [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMA
     <img src="README_images/main.png" valign="middle" style="width:630px;"/>
 </p>
 
+<p align="center">
+    <img src="README_images/cat.gif" valign="middle" style="width:630px;"/>
+</p>
+
 ## Installation
 
 The extension can be installed directly from within the **Extensions** tab within the Webui
