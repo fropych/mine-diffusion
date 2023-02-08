@@ -17,7 +17,7 @@ A extension for [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMA
 </p>
 
 <p align="center">
-    <img src="README_images/cat.gif" valign="middle" style="width:630px;"/>
+    <img src="README_images/demo.gif" valign="middle" style="width:630px;"/>
 </p>
 
 ## Installation
