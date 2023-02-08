@@ -3,7 +3,7 @@ from pathlib import Path
 
 import gradio as gr
 from img2schem import ImgToSchematic
-from modules import script_callbacks
+from modules import script_callbacks, shared
 
 
 EXT_DIR = Path(__file__).parent.parent
@@ -18,8 +18,8 @@ with open(EXT_DIR / "blacklists/Base.txt", "r") as f:
 blacklist_presets = Path(EXT_DIR / "blacklists").glob("*.txt")
 
 
-
 def save_schem(img, width, height, vertical, flip, rotate_angle, path, name):
+    shared.opts.schem_path = path
     path = Path(path) / f"{name}.litematic"
     schem = img2schem(img, width, height, vertical, flip, rotate_angle, name, blacklist)
     schem.save(path)
@@ -114,7 +114,7 @@ def on_ui_tabs():
                     path = gr.Textbox(
                         lines=1,
                         label="Path to Schematics Folder",
-                        value="/home/fromy/.minecraft/schematics",
+                        value=shared.opts.schem_path,
                     )
                     name = gr.Textbox(
                         lines=1,
@@ -197,4 +197,21 @@ def on_ui_tabs():
     return [(aesthetic_interface, "Mine Diffusion", "Mine Diffusion")]
 
 
+def on_ui_settings():
+    option = shared.options_section(
+        ("ais", "Mine Diffusion"),
+        {
+            "schem_path": shared.OptionInfo(
+                "YOUR_PATH/.minecraft/schematics",
+                "Last schemtatics dir path",
+                gr.Textbox,
+                {"lines": 1},
+            )
+        },
+    )
+
+    shared.opts.add_option("schem_path", option["schem_path"])
+
+
+script_callbacks.on_ui_settings(on_ui_settings)
 script_callbacks.on_ui_tabs(on_ui_tabs)
