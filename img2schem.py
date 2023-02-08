@@ -94,7 +94,7 @@ class ImgToSchematic:
         blacklist=None,
     ):
         img = self.prepare_image(img, width, height)
-        if flip:
+        if (not flip) or (flip and vertical):
             img = np.flip(img, axis=1)
         if rotate_angle:
             img = np.rot90(img, -rotate_angle // 90)
