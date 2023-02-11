@@ -68,7 +68,7 @@ def on_ui_tabs():
         with gr.Tab("Main"):
             with gr.Row():
                 with gr.Column(variant="panel"):
-                    img = gr.Image(tool="upload", type="pil")
+                    img = gr.Image(type="pil")
                     gr.Markdown("### Schematic Settings")
                     with gr.Row(variant="compact"):
                         with gr.Column(scale=0.3, min_width=140):
