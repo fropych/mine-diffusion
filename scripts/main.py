@@ -18,15 +18,15 @@ with open(EXT_DIR / "blacklists/Base.txt", "r") as f:
 blacklist_presets = Path(EXT_DIR / "blacklists").glob("*.txt")
 
 
-def save_schem(img, width, height, vertical, flip, rotate_angle, path, name):
+def save_schem(img, width, height, vertical, flip, rotate_angle, path, name, jit):
     shared.opts.schem_path = path
     path = Path(path) / f"{name}.litematic"
-    schem = img2schem(img, width, height, vertical, flip, rotate_angle, name, blacklist)
+    schem = img2schem(img, width, height, vertical, flip, rotate_angle, name, blacklist, jit)
     schem.save(path)
 
 
-def preview(img, width, height):
-    return img2schem.get_image(img, width, height, TEXTURES_DIR, blacklist)
+def preview(img, width, height, jit):
+    return img2schem.get_image(img, width, height, TEXTURES_DIR, blacklist, jit=jit)
 
 
 def blacklist_handler(blacklist_presets_dd, blacklist_dd, action):
@@ -91,7 +91,7 @@ def on_ui_tabs():
                                 label="Width",
                                 value=128,
                                 minimum=32,
-                                maximum=128,
+                                maximum=1024,
                                 step=2,
                                 interactive=True,
                             )
@@ -99,11 +99,13 @@ def on_ui_tabs():
                                 label="Height",
                                 value=128,
                                 minimum=32,
-                                maximum=128,
+                                maximum=1024,
                                 step=2,
                                 interactive=True,
                             )
-
+                            jit = gr.Checkbox(
+                                value=False, label="Reduce Memory Usage", interactive=True
+                            )
                     gr.Markdown("### Save Schematic")
                     schem_type = gr.Radio(
                         ["litematic", "schematic(in development)"],
@@ -140,6 +142,7 @@ def on_ui_tabs():
                     rotate_angle,
                     path,
                     name,
+                    jit
                 ],
             )
 
@@ -149,6 +152,7 @@ def on_ui_tabs():
                     img,
                     width,
                     height,
+                    jit,
                 ],
                 outputs=[converted_img],
             )
