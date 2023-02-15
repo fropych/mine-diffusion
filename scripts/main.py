@@ -3,10 +3,10 @@ from pathlib import Path
 
 import gradio as gr
 from img2schem import ImgToSchematic
-from modules import script_callbacks, shared
+from modules import script_callbacks, shared, extensions
 
 
-EXT_DIR = Path(__file__).parent.parent
+EXT_DIR = Path(extensions.extensions_dir)/"mine-diffusion"
 TEXTURES_DIR = EXT_DIR / "textures"
 
 with open(EXT_DIR / "blocks.json", "r") as f:
