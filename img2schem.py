@@ -2,9 +2,9 @@ from functools import lru_cache
 from copy import deepcopy
 
 import numpy as np
+import torch
 from litemapy import BlockState, Region
 from PIL import Image
-import torch
 from numba import njit
 
 class FastBlockState(BlockState):
