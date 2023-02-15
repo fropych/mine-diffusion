@@ -34,7 +34,7 @@ You also need a Litematic mod to import the scheme into minecraft
 *__Vertical__* - changes orientation from horizontal to vertical  
 *__Flip__* - mirrors the image  
 *__Rotation__* - the angle at which to rotate the image  
-*__Schematic Size__* - adjusts the size in the game
+*__Schematic Size__* - adjusts the size in the game (large values take processing time)
 
 ### __Blocks Blacklist__
 
