@@ -1,301 +1,277 @@
-acacia_wood
-acacia_log[axis=x]
-acacia_planks
-andesite
-bedrock
-birch_wood
-birch_log[axis=x]
-birch_planks
-black_concrete
-black_concrete_powder
-black_glazed_terracotta
-black_stained_glass
-black_terracotta
-black_wool
-blue_concrete
-blue_concrete_powder
-dead_tube_coral_block
-blue_glazed_terracotta
-blue_stained_glass
-blue_terracotta
-blue_wool
-bone_block[axis=y]
-bone_block[axis=x]
-bookshelf
-bricks
-brown_concrete
-brown_concrete_powder
-brown_glazed_terracotta
-brown_stained_glass
-brown_terracotta
-brown_wool
-chiseled_quartz_block
-chiseled_red_sandstone
-chiseled_sandstone
-chiseled_stone_bricks
-clay
-coal_block
-coal_ore
-coarse_dirt
-cobblestone
-cracked_stone_bricks
-crafting_table
-cut_red_sandstone
-cut_sandstone
-cyan_concrete
-cyan_concrete_powder
-cyan_glazed_terracotta
-cyan_stained_glass
-cyan_terracotta
-cyan_wool
-dark_oak_wood
-dark_oak_log[axis=x]
-dark_oak_planks
-dark_prismarine
-diamond_block
-diamond_ore
-diorite
-dirt
-dried_kelp_block
-emerald_block
-emerald_ore
-end_stone
-end_stone_bricks
-gold_block
-gold_ore
-gravel
-gray_concrete
-gray_concrete_powder
-gray_glazed_terracotta
-gray_stained_glass
-gray_terracotta
-gray_wool
-green_concrete
-green_concrete_powder
-green_glazed_terracotta
-green_stained_glass
-green_terracotta
-green_wool
-hay_block[axis=y]
-hay_block[axis=x]
-iron_block
-iron_ore
-jukebox
-packed_ice
-blue_ice
-jungle_wood
-jungle_log[axis=x]
-jungle_planks
-lapis_block
-lapis_ore
-light_blue_concrete
-light_blue_concrete_powder
-light_blue_glazed_terracotta
-light_blue_stained_glass
-light_blue_terracotta
-light_blue_wool
-light_gray_concrete
-light_gray_concrete_powder
-light_gray_glazed_terracotta
-light_gray_stained_glass
-light_gray_terracotta
-light_gray_wool
-lime_concrete
-lime_concrete_powder
-lime_glazed_terracotta
-lime_stained_glass
-lime_terracotta
-lime_wool
-magenta_concrete
-magenta_concrete_powder
-magenta_glazed_terracotta
-magenta_stained_glass
-magenta_terracotta
-magenta_wool
-melon
-mossy_cobblestone
-mossy_stone_bricks
-mushroom_stem[east=false]
-red_mushroom_block
-brown_mushroom_block
-mushroom_stem
-mycelium
-netherrack
-nether_bricks
-nether_wart_block
-note_block
-oak_wood
-oak_log[axis=x]
-oak_planks
-obsidian
-orange_concrete
-orange_concrete_powder
-orange_glazed_terracotta
-orange_stained_glass
-orange_terracotta
-orange_wool
-pink_concrete
-pink_concrete_powder
-dead_brain_coral_block
-pink_glazed_terracotta
-pink_stained_glass
-pink_terracotta
-pink_wool
-podzol
-polished_andesite
-polished_diorite
-polished_granite
-prismarine_bricks
-carved_pumpkin[facing=east]
-jack_o_lantern[facing=east]
-pumpkin
-purple_concrete
-purple_concrete_powder
-dead_bubble_coral_block
-purple_glazed_terracotta
-purple_stained_glass
-purple_terracotta
-purple_wool
-purpur_block
-purpur_pillar
-quartz_block
-nether_quartz_ore
-quartz_pillar
-redstone_block
-redstone_ore
-red_concrete
-red_concrete_powder
-dead_fire_coral_block
-red_glazed_terracotta
-red_nether_bricks
-red_sand
-red_sandstone
-red_stained_glass
-red_terracotta
-red_wool
-sand
-sandstone
-snow_block
-soul_sand
-sponge
-spruce_wood
-spruce_log[axis=x]
-spruce_planks
-stone
-stone_bricks
-granite
-stripped_acacia_log[axis=y]
-stripped_acacia_log[axis=x]
-stripped_birch_log[axis=y]
-stripped_birch_log[axis=x]
-stripped_dark_oak_log[axis=y]
-stripped_dark_oak_log[axis=x]
-stripped_jungle_log[axis=y]
-stripped_jungle_log[axis=x]
-stripped_oak_log[axis=y]
-stripped_oak_log[axis=x]
-stripped_spruce_log[axis=y]
-stripped_spruce_log[axis=x]
-terracotta
-wet_sponge
-white_concrete
-white_concrete_powder
-white_glazed_terracotta
-white_stained_glass
-white_terracotta
-white_wool
-yellow_concrete
-yellow_concrete_powder
-dead_horn_coral_block
-yellow_glazed_terracotta
-yellow_stained_glass
-yellow_terracotta
-yellow_wool
-smooth_stone
-honeycomb_block
-ancient_debris
-netherite_block
-basalt[axis=y]
-basalt[axis=x]
-polished_basalt[axis=y]
-polished_basalt[axis=x]
-warped_wart_block
-soul_soil
-warped_planks
-crimson_planks
-stripped_warped_stem[axis=y]
-stripped_warped_stem[axis=x]
-warped_stem[axis=y]
-warped_stem[axis=x]
-stripped_crimson_stem[axis=y]
-stripped_crimson_stem[axis=x]
-crimson_stem[axis=y]
-crimson_stem[axis=x]
-target
-crying_obsidian
-stripped_warped_hyphae
-stripped_crimson_hyphae
-warped_hyphae
-crimson_hyphae
-nether_gold_ore
-blackstone
-chiseled_polished_blackstone
-cracked_polished_blackstone_bricks
-gilded_blackstone
-polished_blackstone
-polished_blackstone_bricks
-chiseled_nether_bricks
-cracked_nether_bricks
-quartz_bricks
-amethyst_block
-raw_gold_block
-raw_iron_block
-raw_copper_block
-calcite
-copper_ore
-waxed_copper_block
-waxed_cut_copper
-waxed_exposed_copper
-waxed_exposed_cut_copper
-waxed_oxidized_copper
-waxed_oxidized_cut_copper
-waxed_weathered_copper
-waxed_weathered_cut_copper
-tuff
-moss_block
-rooted_dirt
-deepslate[axis=y]
-deepslate[axis=x]
-cobbled_deepslate
-polished_deepslate
-deepslate_coal_ore
-deepslate_iron_ore
-deepslate_gold_ore
-deepslate_copper_ore
-deepslate_redstone_ore
-deepslate_emerald_ore
-deepslate_lapis_ore
-deepslate_diamond_ore
-deepslate_bricks
-cracked_deepslate_bricks
-deepslate_tiles
-cracked_deepslate_tiles
-chiseled_deepslate
-smooth_basalt
-stripped_mangrove_wood
-stripped_mangrove_log[axis=x]
-mangrove_wood
-mangrove_log[axis=x]
-mangrove_planks
-mud
-mud_bricks
-packed_mud
-reinforced_deepslate
-muddy_mangrove_roots[axis=y]
-muddy_mangrove_roots[axis=x]
-pearlescent_froglight[axis=y]
-pearlescent_froglight[axis=x]
-ochre_froglight[axis=y]
-ochre_froglight[axis=x]
-verdant_froglight[axis=y]
-verdant_froglight[axis=x]
+Grass Block
+Slime Block
+Sand
+Sandstone
+Sandstone Slab
+Birch Log (vertical)
+Birch Planks
+Birch Slab
+Glowstone
+End Stone
+End Stone Bricks
+End Stone Brick Slab
+Bone Block
+Cobweb
+Mushroom Stem
+TNT
+Block of Redstone
+Ice
+Packed Ice
+Blue Ice
+Block of Iron
+Iron Trapdoor
+Weighted Pressure Plate (Heavy)
+Brewing Stand
+Leaves (Oak)
+Leaves (Spruce)
+Leaves (Birch)
+Leaves (Jungle)
+Leaves (Acacia)
+Leaves (Dark Oak)
+Leaves (Azalea)
+Clay
+Jungle Log (vertical)
+Jungle Planks
+Jungle Slab
+Dirt
+Coarse Dirt
+Rooted Dirt
+Jukebox
+Granite
+Granite Slab
+Cobblestone
+Cobblestone Slab
+Mossy Cobblestone
+Mossy Cobblestone Slab
+Stone
+Stone Slab
+Smooth Stone Slab
+Stone Bricks
+Stone Brick Slab
+Andesite
+Andesite Slab
+Bedrock
+Acacia Log (horizontal)
+Gravel
+Oak Log (vertical)
+Oak Planks
+Oak Slab
+Crafting Table
+Birch Log (horizontal)
+Diorite
+Diorite Slab
+Quartz Block
+Quartz Slab
+Sea Lantern
+White Wool
+White Carpet
+White Stained Glass
+White Concrete
+White Concrete Powder
+White Glazed Terracotta
+Snow Block
+Snow Layer
+Orange Wool
+Orange Carpet
+Orange Stained Glass
+Orange Concrete
+Orange Concrete Powder
+Orange Glazed Terracotta
+Pumpkin
+Acacia Log (vertical)
+Acacia Planks
+Acacia Slab
+Red Sand
+Red Sandstone
+Red Sandstone Slab
+Terracotta
+Honey Block
+Honeycomb Block
+Block Of Raw Copper
+Waxed Block Of Copper
+Waxed Cut Copper Slab
+Magenta Wool
+Magenta Carpet
+Magenta Stained Glass
+Magenta Concrete
+Magenta Concrete Powder
+Magenta Glazed Terracotta
+Purpur Block
+Purpur Slab
+Light Blue Wool
+Light Blue Carpet
+Light Blue Stained Glass
+Light Blue Concrete
+Light Blue Concrete Powder
+Light Blue Glazed Terracotta
+Yellow Wool
+Yellow Carpet
+Yellow Stained Glass
+Yellow Concrete
+Yellow Concrete Powder
+Yellow Glazed Terracotta
+Hay Bale
+Sponge (any)
+Lime Wool
+Lime Carpet
+Lime Stained Glass
+Lime Concrete
+Lime Concrete Powder
+Lime Glazed Terracotta
+Melon
+Pink Wool
+Pink Carpet
+Pink Stained Glass
+Pink Concrete
+Pink Concrete Powder
+Pink Glazed Terracotta
+Gray Wool
+Gray Carpet
+Gray Stained Glass
+Gray Concrete
+Gray Concrete Powder
+Gray Glazed Terracotta
+Dead Tube Coral Block
+Dead Brain Coral Block
+Dead Bubble Coral Block
+Dead Fire Coral Block
+Dead Horn Coral Block
+Tinted Glass
+Light Gray Wool
+Light Gray Carpet
+Light Gray Stained Glass
+Light Gray Concrete
+Light Gray Concrete Powder
+Light Gray Glazed Terracotta
+Cyan Wool
+Cyan Carpet
+Cyan Stained Glass
+Cyan Concrete
+Cyan Concrete Powder
+Cyan Glazed Terracotta
+Prismarine
+Prismarine Slab
+Purple Wool
+Purple Carpet
+Purple Stained Glass
+Purple Concrete
+Purple Concrete Powder
+Purple Glazed Terracotta
+Mycelium
+Amethyst Block
+Blue Wool
+Blue Carpet
+Blue Stained Glass
+Blue Concrete
+Blue Concrete Powder
+Blue Glazed Terracotta
+Brown Wool
+Brown Carpet
+Brown Stained Glass
+Brown Concrete
+Brown Concrete Powder
+Brown Glazed Terracotta
+Dark Oak Log (any direction)
+Dark Oak Planks
+Dark Oak Slab
+Spruce Log (horizontal)
+Soul Sand
+Soul Soil
+Green Wool
+Green Carpet
+Green Stained Glass
+Green Concrete
+Green Concrete Powder
+Green Glazed Terracotta
+Dried Kelp Block
+Red Wool
+Red Carpet
+Red Stained Glass
+Red Concrete
+Red Concrete Powder
+Red Glazed Terracotta
+Bricks
+Bricks Slab
+Nether Wart Block
+Shroomlight
+Black Wool
+Black Carpet
+Black Stained Glass
+Black Concrete
+Black Concrete Powder
+Black Glazed Terracotta
+Block of Coal
+Obsidian
+Crying Obsidian
+Blackstone
+Blackstone Slab
+Basalt
+Block Of Netherite
+Block of Gold
+Weighted Pressure Plate (Light)
+Block Of Raw Gold
+Block of Diamond
+Prismarine Bricks
+Prismarine Brick Slab
+Dark Prismarine
+Dark Prismarine Slab
+Beacon
+Lapis Lazuli Block
+Block of Emerald
+Spruce Log (vertical)
+Spruce Planks
+Spruce Slab
+Oak Log (horizontal)
+Jungle Log (horizontal)
+Podzol
+Netherrack
+Nether Brick
+Nether Brick Slab
+Magma Block
+Red Nether Bricks
+Red Nether Brick Slab
+White Terracotta
+Calcite
+Orange Terracotta
+Magenta Terracotta
+Light Blue Terracotta
+Yellow Terracotta
+Lime Terracotta
+Pink Terracotta
+Gray Terracotta
+Tuff
+Light Gray Terracotta
+Waxed Exposed Copper
+Waxed Exposed Cut Copper Slab
+Cyan Terracotta
+Purple Terracotta
+Blue Terracotta
+Brown Terracotta
+Dripstone Block
+Green Terracotta
+Red Terracotta
+Black Terracotta
+Crimson Nylium
+Crimson Stem
+Stripped Crimson Stem
+Crimson Planks
+Crimson Slab
+Crimson Hyphae
+Stripped Crimson Hyphae
+Warped Nylium
+Waxed Oxidized Copper
+Waxed Oxidized Cut Copper Slab
+Warped Stem
+Stripped Warped Stem
+Warped Planks
+Warped Slab
+Waxed Weathered Copper
+Waxed Weathered Cut Copper Slab
+Warped Hyphae
+Stripped Warped Hyphae
+Warped Wart Block
+Deepslate
+Cobbled Deepslate
+Cobbled Deepslate Slab
+Block Of Raw Iron
+Glow Lichen

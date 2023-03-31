@@ -7,26 +7,25 @@ from modules import script_callbacks, shared, extensions
 
 
 EXT_DIR = Path(extensions.extensions_dir)/"mine-diffusion"
-TEXTURES_DIR = EXT_DIR / "textures"
 
-with open(EXT_DIR / "blocks.json", "r") as f:
-    blocks = json.load(f)
-img2schem = ImgToSchematic(blocks)
+with open(EXT_DIR / "colors.json", "r") as f:
+    bcolors = json.load(f)
+img2schem = ImgToSchematic(bcolors)
 
 with open(EXT_DIR / "blacklists/Base.txt", "r") as f:
     blacklist = set([name.strip() for name in f.readlines()])
 blacklist_presets = Path(EXT_DIR / "blacklists").glob("*.txt")
 
 
-def save_schem(img, width, height, vertical, flip, rotate_angle, path, name, jit):
+def save_schem(img, width, height, vertical, flip, rotate_angle, path, name, dithering):
     shared.opts.schem_path = path
     path = Path(path) / f"{name}.litematic"
-    schem = img2schem(img, width, height, vertical, flip, rotate_angle, name, blacklist, jit)
+    schem = img2schem(img, width, height, vertical, flip, rotate_angle, name, blacklist, dithering)
     schem.save(path)
 
 
-def preview(img, width, height, jit):
-    return img2schem.get_image(img, width, height, TEXTURES_DIR, blacklist, jit=jit)
+def preview(img, width, height, dithering):
+    return img2schem.get_image(img, width, height, blacklist, dithering=dithering)
 
 
 def blacklist_handler(blacklist_presets_dd, blacklist_dd, action):
@@ -91,7 +90,7 @@ def on_ui_tabs():
                                 label="Width",
                                 value=128,
                                 minimum=32,
-                                maximum=1024,
+                                maximum=8192,
                                 step=2,
                                 interactive=True,
                             )
@@ -99,12 +98,12 @@ def on_ui_tabs():
                                 label="Height",
                                 value=128,
                                 minimum=32,
-                                maximum=1024,
+                                maximum=8192,
                                 step=2,
                                 interactive=True,
                             )
-                            jit = gr.Checkbox(
-                                value=False, label="Reduce Memory Usage", interactive=True
+                            dithering = gr.Checkbox(
+                                value=True, label="Dithering", interactive=True
                             )
                     gr.Markdown("### Save Schematic")
                     schem_type = gr.Radio(
@@ -142,7 +141,7 @@ def on_ui_tabs():
                     rotate_angle,
                     path,
                     name,
-                    jit
+                    dithering
                 ],
             )
 
@@ -152,7 +151,7 @@ def on_ui_tabs():
                     img,
                     width,
                     height,
-                    jit,
+                    dithering,
                 ],
                 outputs=[converted_img],
             )
@@ -202,11 +201,12 @@ def on_ui_tabs():
 
 
 def on_ui_settings():
+    default = "YOUR_PATH/.minecraft/schematics"
     option = shared.options_section(
         ("ais", "Mine Diffusion"),
         {
             "schem_path": shared.OptionInfo(
-                "YOUR_PATH/.minecraft/schematics",
+                default,
                 "Last schemtatics dir path",
                 gr.Textbox,
                 {"lines": 1},
